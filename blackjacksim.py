@@ -58,7 +58,7 @@ def run_gui():
         )
 
     root = tk.Tk()
-    root.title("Blackjack Monte Carlo Simulator")
+    root.title("Blackjack Monte Carlo Simulator -- https://github.com/andrewsch166/blackjacksimulator")
 
     # Input frame
     frame = ttk.Frame(root, padding=10)

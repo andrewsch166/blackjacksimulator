@@ -41,7 +41,7 @@ def blackjack_monte_carlo(
 
 
 # Streamlit UI
-st.title("Blackjack Monte Carlo Simulator")
+st.title("Blackjack Monte Carlo Simulator -- https://github.com/andrewsch166/blackjacksimulator")
 
 initial_bankroll = st.number_input("Initial Bankroll ($):", min_value=1, value=150)
 bet_size = st.number_input("Bet Size ($):", min_value=1, value=15)
